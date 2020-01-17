@@ -1,0 +1,31 @@
+
+@keyframes changeColor {
+  from {
+    background-color: #32CD32;;
+  }
+  to {
+    background-color: #b22222;
+  }
+}
+
+.rectangle {
+  width: 400px;
+  height: 300px;
+  background-color: #4169e1;
+  border-radius: 20px;
+  animation-name: changeColor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.good {
+  background-color: #32CD32;
+}
+
+.important {
+  background-color: #b22222;
+}
+
+.hide {
+  display: none;
+}
